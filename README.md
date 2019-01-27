@@ -25,8 +25,7 @@ Testing Strategy
 
 ### Part 2
 ````
-Testing strategy
-Bug Report - Send on a separate sheet.
+Bug Report - Sent on a separate sheet.
 ````
 
 ## Installation
