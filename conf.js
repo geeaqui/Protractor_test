@@ -6,7 +6,7 @@ exports.config = {
     './tests/purchase/spec.js'
     ],
     multiCapabilities: [{
-      browserName: 'firefox'
+    //  browserName: 'firefox'
     }, {
       browserName: 'chrome'
     }],

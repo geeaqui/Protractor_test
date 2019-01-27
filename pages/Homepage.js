@@ -4,14 +4,6 @@ const AccountPage = require('./AccountPage');
 
 var Homepage = function() {
     
-    //Log-in
-    const loginEmail = element(by.id('email'));
-    const loginPassword = element(by.id('passwd'));
-    const loginButton = element(by.id('SubmitLogin'));
-
-    //Select Item
-    //element(by.css(".product_img_link")).click();
-    
     //Homepage Url
     const homePageURL = 'http://automationpractice.com/index.php';
 

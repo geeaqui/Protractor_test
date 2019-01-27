@@ -6,7 +6,6 @@ describe('User Purchase', function() {
     it('Should log-in an account inside order flow and purchase an item successfully', async function() {
         await HomePage.get();
         await HomePage.LoginAccountWhilePurchingItem();
-        
     });
 
     //positive test

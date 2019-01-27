@@ -61,6 +61,8 @@ As I have never used protractor before, I would say I have to spend time underst
 ### If you had more time what would you do to improve the framework (if anything)
 * Using a proper assertion library, because of the time constraint, I have not used an assertion library that I am confident to use rather than using the default assertion that comes with protractor to check each test cases for the expected results.
 * Refactor the code to be more cleaner and code resusable.
+* Find a better way of outputting the test report.
+* Expand the test coverage
 
 
 ## Author
