@@ -54,7 +54,7 @@ Bug Report - Send on a separate sheet.
     protractor conf.js
 ````
 
-#Additional Notes 
+# Additional Notes 
 
 ### What you found difficult? 
 As I have never used protractor before, I would say I have to spend time understanding how the protrator works, file structure, creating the test, using assertion to check the test as working as expected.
