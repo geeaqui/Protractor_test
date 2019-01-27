@@ -54,11 +54,11 @@ Bug Report - Send on a separate sheet.
     protractor conf.js
 ````
 
-#Additional Notes : 
+#Additional Notes 
 
-###what you found difficult? 
+### What you found difficult? 
 As I have never used protractor before, I would say I have to spend time understanding how the protrator works, file structure, creating the test, using assertion to check the test as working as expected.
-###if you had more time what would you do to improve the framework (if anything)
+### If you had more time what would you do to improve the framework (if anything)
 * Using a proper assertion library, because of the time constraint, I have not used an assertion library that I am confident to use rather than using the default assertion that comes with protractor to check each test cases for the expected results.
 * Refactor the code to be more cleaner and code resusable.
 
