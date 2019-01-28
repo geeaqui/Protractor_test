@@ -5,15 +5,13 @@ exports.config = {
      './tests/account/spec.js',
     './tests/purchase/spec.js'
     ],
-    multiCapabilities: [{
-    //  browserName: 'firefox'
-    }, {
-      browserName: 'chrome'
-    }],
+    capabilities: {
+      'browserName': 'chrome'
+    },
     jasmineNodeOpts: {
       showColors: true,
       defaultTimeoutInterval: 1000000,
       isVerbose: true,
       includeStackTrace: true,
-  },
+    },
   }

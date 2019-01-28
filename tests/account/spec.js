@@ -3,7 +3,7 @@ const AccountPage = require('../../pages/AccountPage');
 describe('User authentication', function() {
   
   //positive test
-  it('Should be successfully in creating a new account', async function() {
+  it('Should be successful in creating a new account', async function() {
     await AccountPage.get();
     await AccountPage.CreateAccount();
     expect(AccountPage.GetWelcomeMessage()).toEqual('Welcome to your account. Here you can manage all of your personal information and orders.');
@@ -11,7 +11,7 @@ describe('User authentication', function() {
   });
 
   //positive test
-  it('Should be successful in logging-in', async function() {
+  it('Should be successful in logging-in existing account', async function() {
     await AccountPage.LoginWithExistingAcount();
     expect(AccountPage.GetWelcomeMessage()).toEqual('Welcome to your account. Here you can manage all of your personal information and orders.');
     await AccountPage.LogOut();
