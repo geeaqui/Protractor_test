@@ -30,7 +30,7 @@ Testing Strategy
 * node.js v8+
 * Protractor (https://www.protractortest.org/#/)
 
-### Part 3
+### Task 2
 # Running the App
 
  * Install Protractor globally to your local machine 
