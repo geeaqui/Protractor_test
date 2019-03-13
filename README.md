@@ -1,9 +1,9 @@
 # Tecnical Test
 
-### Part 1
+### Task 1
 
 Introduction
-http://automationpractice.com/ is a dummy ecommerce application that can be used to practice UI automation.
+This is to test a dummy ecommerce application to practice UI automation.
 
 Objective and Task
 
@@ -22,11 +22,6 @@ Testing Strategy
 *	Familiarise myself with the website by investigating manually each page and functionality mentioned on the scope.
 *	Making sure the functionality are working as expected base on the understanding of a normal user who visited the website for the first time
 *   Create a basic sanity test template to identify functionality that is working as expected of the user and list of possible defects.
-
-### Part 2
-````
-Bug Report - Sent on a separate sheet.
-````
 
 ## Installation
 
@@ -52,17 +47,6 @@ Bug Report - Sent on a separate sheet.
  ````
     protractor conf.js
 ````
-
-# Additional Notes 
-
-### What you found difficult? 
-As I have never used protractor before, I would say I have to spend time understanding how the protrator works, file structure, creating the test, using assertion to check the test as working as expected.
-### If you had more time what would you do to improve the framework (if anything)
-* Using a proper assertion library, because of the time constraint, I have not used an assertion library that I am confident to use rather than using the default assertion that comes with protractor to check each test cases for the expected results.
-* Refactor the code to be more cleaner and code resusable.
-* Find a better way of outputting the test report.
-* Expand the test coverage
-
 
 ## Author
 Gerald Aqui
